@@ -1,14 +1,20 @@
-{{!-- <img src="/assets/img/burger.png" alt="Burger"> --}}
-<h1>Burgers!</h1>
+<img src="/assets/img/burger.png" alt="Burger">
 
-<h2>Burgers of different types!</h2>
+<h1>Burger List</h1>
 
+<h2>Add a Burger</h2>
 <form class="create-form">
 
   <div class="form-group">
     <label for="burg">Burger Name:</label>
     <input type="text" id="burg" name="burger_name">
   </div>
+
+  
+
+  <button type="submit">Add Burger</button>
+</form>
+
 
 <ul>
   {{#each burgers}}
